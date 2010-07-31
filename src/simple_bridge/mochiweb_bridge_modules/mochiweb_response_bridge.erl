@@ -3,7 +3,7 @@
 % See MIT-LICENSE for licensing information.
 
 -module (mochiweb_response_bridge).
--behaviour (simple_bridge_response).
+%-behaviour (simple_bridge_response).
 -include_lib ("simple_bridge.hrl").
 -export ([build_response/2]).
 
